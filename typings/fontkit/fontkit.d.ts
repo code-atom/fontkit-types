@@ -166,6 +166,4 @@ declare module 'fontkit' {
     includeGlyph(glyph: Glyph): void;
     encodeStream(): NodeJS.ReadableStream;
   }
-
-  // todo: export stuff (should work with non-ES6 modules)
 }
