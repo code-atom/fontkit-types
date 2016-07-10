@@ -1,0 +1,15 @@
+{
+  "name": "fontkit-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "scripts": {
+    "preinstall": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "private": true,
+  "dependencies": {
+    "typescript": "^1.8.10"
+  }
+}
