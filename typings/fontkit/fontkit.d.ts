@@ -14,6 +14,10 @@ declare module 'fontkit' {
   type CodePoint = number;
 
   class BBox {
+    minX: number;
+    maxX: number;
+    minY: number;
+    maxY: number;
     width: number;
     height: number;
   }
@@ -109,6 +113,8 @@ declare module 'fontkit' {
   type VariationSettings = { [axisTag: string]: number };
 
   class GlyphRun {
+    glyphs: Array<Glyph>;
+    positions: Array<GlyphPosition>;
     advanceWidth: number;
     advanceHeight: number;
     bbox: BBox;
